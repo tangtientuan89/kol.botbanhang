@@ -179,6 +179,44 @@ th {
   padding: 0;
 }
 
+
+
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+
+.text-chatbot{
+  color:#ed5a29 !important ;
+}
+
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+/* CSS custom */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ==========================================================================
    Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
    ========================================================================== */
@@ -5848,11 +5886,12 @@ blockquote {
   margin-left: 24px;
   padding-top: 14px;
   padding-bottom: 9px;
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #ed5a29;
 }
 
 .cta-button.header-cta._052020 {
-  width: 220px;
+  width: 240px;
   margin-bottom: 20px;
 }
 
@@ -8801,7 +8840,8 @@ blockquote {
 .button {
   padding: 14px 49px 12px 35px;
   border-radius: 5px;
-  background-color: #000;
+  /* background-color: #000; */
+  background-color: #ed5a29;
   -webkit-transition: background-color 200ms ease;
   transition: background-color 200ms ease;
   font-size: 16px;
@@ -8810,7 +8850,7 @@ blockquote {
 }
 
 .button:hover {
-  background-color: #242424;
+  background-color: #ed5a29;
 }
 
 .button.arrow {
