@@ -5,9 +5,13 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;
+  font-family: 'Roboto' !important;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+/* *{
+  font-size: 15px;
+} */
 body {
   margin: 0;
 }
@@ -188,11 +192,24 @@ th {
 /* CSS custom */
 /* CSS custom */
 /* CSS custom */
-
+.faq{
+  text-align: start;
+  padding: 0 5rem;
+}
+.faq hr{
+  width:100%;
+   text-align:center;
+}
 .text-chatbot{
   color:#ed5a29 !important ;
 }
+.text-question{
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+.text-answer{
 
+}
 /* CSS custom */
 /* CSS custom */
 /* CSS custom */
@@ -5694,7 +5711,8 @@ blockquote {
 }
 
 .brand-logo.w--current {
-  width: 12%;
+  width: 100%;
+  min-width: 100px;
 }
 
 .desktop-nav-menu {
@@ -5873,7 +5891,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
-  background-color: #000;
+  background-color: #ed5a29;
   font-family: "Maison Neue Demi";
   color: #fff;
   font-size: 16px;
@@ -5891,7 +5909,7 @@ blockquote {
 }
 
 .cta-button.header-cta._052020 {
-  width: 240px;
+  width: 250px;
   margin-bottom: 20px;
 }
 
@@ -8805,13 +8823,13 @@ blockquote {
 }
 
 .h1-hero {
-  font-family: "Maison Neue Black", sans-serif;
+  font-family: 'Roboto' !important;
   font-size: 48px;
   line-height: 110%;
 }
 
 .h1-hero.large {
-  font-family: "Maison Neue Black", sans-serif;
+  font-family: 'Roboto' !important;
   font-size: 72px;
   font-weight: 800;
 }
@@ -8830,6 +8848,7 @@ blockquote {
   font-size: 20px;
   line-height: 150%;
   font-weight: 400;
+  font-family: 'Roboto';
 }
 
 .p-hero.home {
@@ -9017,6 +9036,7 @@ blockquote {
 }
 
 .h3-content {
+  font-family: 'Roboto';
   font-size: 32px;
   line-height: 110%;
   font-weight: 800;
@@ -9600,20 +9620,19 @@ blockquote {
   margin-right: auto;
   margin-bottom: 120px;
   margin-left: auto;
-  font-family: Maisonneue, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 48px;
   line-height: 1.1em;
 }
 
 .pink-yellow-footer {
   overflow: hidden;
-  padding: 136px 20px;
+  padding: 136px 20px 50px;
   background-image: url("../image/5dc2fb777a42340a1ccf4a5e_5d48059fbaced768aed59cbc_color1.jpg");
   background-position: 0px 0px;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .footer-cta {
   margin-bottom: 205px;
 }
@@ -9626,12 +9645,12 @@ blockquote {
   bottom: auto;
   z-index: 200;
   margin-top: 0px;
-  padding: 32px 20px 16px;
+  padding: 0px 20px;
   background-color: hsla(0, 0%, 100%, 0);
 }
 
 .desktop-nav-2.withbanner {
-  margin-top: 92px;
+  margin-top: 90px;
 }
 
 .desktop-nav-link-2 {
@@ -9839,6 +9858,7 @@ blockquote {
 }
 
 .heading-29 {
+  font-family: 'Roboto';
   margin-bottom: 16px;
   padding-right: 30px;
   font-size: 40px;
@@ -9905,7 +9925,8 @@ blockquote {
 .h1 {
   margin-right: 20px;
   margin-bottom: 16px;
-  font-family: "Maison Neue Black", sans-serif;
+  /* font-family: "Maison Neue Black", sans-serif; */
+  font-family: 'Roboto',sans-serif;
   font-size: 48px;
   line-height: 110%;
 }
@@ -10096,6 +10117,7 @@ blockquote {
 
 .headline {
   font-family: "Maison Neue Black", sans-serif;
+  font-family: 'Roboto';
   font-size: 56px;
   font-weight: 800;
 }
@@ -10169,6 +10191,7 @@ blockquote {
 }
 
 .heading-31 {
+  font-family: 'Roboto';
   margin-bottom: 16px;
   font-size: 40px;
   line-height: 110%;
@@ -14772,6 +14795,7 @@ html.w-mod-js *[data-ix="fade-in-on-load-2"] {
   }
   .copyright-div {
     margin-top: 15px;
+    font-size: 1.5rem !important;
   }
   .big-quote-text {
     font-size: 32px;
