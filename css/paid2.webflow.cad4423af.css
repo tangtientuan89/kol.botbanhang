@@ -208,7 +208,7 @@ th {
   font-size: 1.5rem;
 }
 .img-shadow{
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 /* CSS custom */
 /* CSS custom */
@@ -1780,7 +1780,7 @@ textarea.w-select {
   vertical-align: top;
   text-decoration: none;
   color: #222222;
-  padding: 20px;
+  padding: 20px 0 20px 20px;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -5906,6 +5906,7 @@ blockquote {
   padding-bottom: 9px;
   /* background-color: #000; */
   background-color: #ed5a29;
+  height: 46px;
 }
 
 .cta-button.header-cta._052020 {
@@ -8904,7 +8905,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 56px;
+  height: 46px;
   padding-right: 125px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
