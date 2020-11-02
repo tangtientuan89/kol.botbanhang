@@ -96,11 +96,18 @@ a:hover {
         padding-left: 40px;
         padding-right: 40px;
     }
+ 
 }
 @media (max-width: 600px) {
     .container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .content {
+        max-width: 100%;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 .content {
@@ -109,6 +116,30 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+@media only screen and (max-width: 992px) {
+    .content {
+        max-width: 100%;
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: 100%;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
+@media only screen and (max-width: 576px) {
+    .content {
+        max-width: 100%;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
 .content__narrow {
     width: 640px;
 }
